@@ -18,7 +18,7 @@ hold on
 grid
 
 % Write to a file, then just copy and paste ;P
-fileID = fopen('SineWave.txt','w');
+fileID = fopen('SineWave.h','w');
 fprintf(fileID,'#ifdef SINE_WAVE_CLEAN \n');
 fprintf(fileID,'// t=linspace(0,1/60,2^8);  \n');
 fprintf(fileID,'// y1 = 0.8*sin(2*pi*60*t);  \n');
