@@ -1,3 +1,3 @@
-# Souce files of the paper "Communication between Processors in Multiplatform Systems".
+# Source files of the paper "Communication between Processors in Multiplatform Systems".
 
 This paper presents a practical implementation of the distributed processing concepts applied to the Single Board Computer Udoo Dual Lite. For this purpose, a data acquisition system, based on the Direct Memory Access Controller, is implemented in an ARM Cortex-M3 microcontroller. The collected data is sent continuously, through an UART interface, to a second microcontroller that runs Linux Ubuntu operating system. A software written in C uses the pthread library for synchronization between read and write operations of the received data. A web server provides an HTML page for querying and viewing the collected data signal.
