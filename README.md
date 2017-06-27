@@ -10,18 +10,21 @@ Compile main.c with:
   
 Copy the compiled file, "serial", to the "web" folder.
 
-Install "socket.io"
+Install "socket.io" and "chart.js"
 
   >> npm install socket.io --save
+  >> npm install chart.js --save
   
 Run the server with the command:
 
   >> node web.js
   
-Connecet DAC1 to AN0 on arduino pinout.
+Connecet DAC1 to AN0, check arduino pinout diagram.
 
 Verify the IP of the board:
 
   >> ifconfig eth0 
   
-At the browser insert the IP address with the port 8085.
+At the browser insert the IP address with the port number 8081, eg.:
+
+  >> http://192.168.2.7:8081
